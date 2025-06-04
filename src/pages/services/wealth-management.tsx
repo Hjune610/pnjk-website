@@ -19,7 +19,7 @@ export default function WealthManagementPage() {
           <div className="w-full md:w-1/2">
             <h2 className="text-2xl font-semibold mb-4">Our Approach</h2>
             <p className="mb-4">
-              PNJK’s Wealth Management team brings years of hands-on leadership experience and objectivity to guide families in building a clear, actionable path toward their financial aspirations.
+              PNJK&apos;s Wealth Management team brings years of hands-on leadership experience and objectivity to guide families in building a clear, actionable path toward their financial aspirations.
             </p>
             <p className="mb-4">
               We define wealth management as a disciplined, structured process that delivers personalized investment solutions, advanced planning, and consistent relationship management.
