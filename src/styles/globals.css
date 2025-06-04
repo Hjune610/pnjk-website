@@ -24,3 +24,17 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+@keyframes backgroundPan {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 65% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+.bg-pan {
+  background-size: 115%; /* Zoomed slightly for parallax illusion */
+  background-position: 0% 110%;
+  background-repeat: no-repeat;
+  animation: backgroundPan 50s ease-in-out infinite;
+}
+
