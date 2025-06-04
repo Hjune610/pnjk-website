@@ -17,10 +17,10 @@ export default function CareersPage() {
 
           <h2 className="text-2xl font-semibold">What to Expect Working at PNJK</h2>
           <p>
-            As a full-service accounting firm, PNJK Partners LLP offers audit, tax, and financial advisory services to businesses and high-net-worth individuals. We've grown into a trusted and innovative firm recognized for efficiency, professional excellence, and personalized service. Our client base ranges from startups to global enterprises, tax-exempt organizations, and prominent individuals.
+            As a full-service accounting firm, PNJK Partners LLP offers audit, tax, and financial advisory services to businesses and high-net-worth individuals. We&apos;ve grown into a trusted and innovative firm recognized for efficiency, professional excellence, and personalized service. Our client base ranges from startups to global enterprises, tax-exempt organizations, and prominent individuals.
           </p>
           <p>
-            We are always interested in hearing from qualified, motivated individuals. If you're looking to grow your career with a firm that values both excellence and balance, reach out to our Human Resources department.
+            We are always interested in hearing from qualified, motivated individuals. If you&apos;re looking to grow your career with a firm that values both excellence and balance, reach out to our Human Resources department.
           </p>
 
           <h2 className="text-2xl font-semibold">Firm Culture</h2>

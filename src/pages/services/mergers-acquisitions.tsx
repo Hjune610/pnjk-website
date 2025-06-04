@@ -23,7 +23,7 @@ export default function MergersAcquisitionsPage() {
               At PNJK, we help sellers achieve the highest after-tax proceeds and assist buyers in structuring deals that optimize future tax benefits. Our balanced approach fosters collaboration between negotiating parties, paving the way for smoother transactions and long-term success.
             </p>
             <p>
-              Whether you're planning your exit, evaluating growth through acquisition, or considering a merger, our professionals provide tailored insights that align with your strategic objectives.
+              Whether you&apos;re planning your exit, evaluating growth through acquisition, or considering a merger, our professionals provide tailored insights that align with your strategic objectives.
             </p>
           </div>
 

@@ -23,7 +23,7 @@ export default function AboutPage() {
               On a daily basis, you, as a business owner and executive management, deal with variety of responsibilities  and  risks. In addition, you also need to build up long term strategies for business success.  In order to focus your time on the things that are most critical to your business  and make right decision at right times, the importance of working with right professionals with copious experience  cannot be overemphasized.             </p>
             <p className="mb-4">
               As a full service public accounting firm, PNJK Partners, LLP works with enterprises as diverse as global public companies, start-ups, and middle-market companies; as well as high net worth individuals, Not-for-profit organizations, and entrepreneurial ventures across a variety of industries.
-              Our partners and team members have many years of "Big 4" accounting firm experience. Along with our partners, our professionals are dedicated and committed to excellent customer service and top quality consulting expertise. PNJK is a innovative and rapidly growing certified public accounting firm located in the Greater Chicago area serving clients worldwide.             </p>
+              Our partners and team members have many years of &quot;Big 4&quot; accounting firm experience. Along with our partners, our professionals are dedicated and committed to excellent customer service and top quality consulting expertise. PNJK is a innovative and rapidly growing certified public accounting firm located in the Greater Chicago area serving clients worldwide.             </p>
             <p className="mb-4">
               PNJK professionals have significant breadth and depth of knowledge in key service areas including consulting services comprised of external & internal audits, risk management, information technology and compliance. Other primary service lines include asset and business valuation, international tax (including transfer pricing), employee benefit plan audits, fund services, litigation support and forensic accounting, bankruptcy and insolvency and royalty audit.
             </p>
@@ -34,7 +34,7 @@ export default function AboutPage() {
               PNJK works with companies from their inception providing accounting, advisory and tax services. The firm serves incubators and start-ups with accounting services and advice. As companies grow, PNJK assists them every step of the way with a full complement of services to help them reach their goals.
             </p>
             <p className="mb-4">
-              Our goal is to provide you and your business with innovative and professional guidance whenever you need.  PNJK's core values are to provide quality service, attract and develop a team of talented and highly trained professionals, stress innovation in all firm activities, act with integrity at all times, and be an effective and financially sound professional enterprise.
+              Our goal is to provide you and your business with innovative and professional guidance whenever you need.  PNJK&apos;s core values are to provide quality service, attract and develop a team of talented and highly trained professionals, stress innovation in all firm activities, act with integrity at all times, and be an effective and financially sound professional enterprise.
             </p>
           </div>
 
@@ -79,7 +79,7 @@ export default function AboutPage() {
 
             <h2 className="text-2xl font-semibold mb-4 mt-10">What Sets Us Apart</h2>
             <p className="mb-4">
-              We bring "Big 4" firm expertise with boutique firm agility. Our team is built on a foundation of senior professionals who prioritize strategy and service tailored to each client's needs.
+              We bring &quot;Big 4&quot; firm expertise with boutique firm agility. Our team is built on a foundation of senior professionals who prioritize strategy and service tailored to each client&apos;s needs.
             </p>
           </div>
         </div>

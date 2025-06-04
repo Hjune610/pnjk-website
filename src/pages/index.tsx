@@ -134,8 +134,8 @@ export default function Home() {
                         >
                           Enterprise Risk <span className="ml-2">→</span>
                         </a>
-                        <a href="/services/accounting-outsourcing" className="font-medium text-white hover:text-blue-600 py-8">Outsourcing</a>
-                        <a href="/services/wealth-management" className="font-medium text-white hover:text-blue-600">Wealth Management</a>
+                        <Link href="/services/accounting-outsourcing" className="font-medium text-white hover:text-blue-600 py-8">Outsourcing</Link>
+                        <Link href="/services/wealth-management" className="font-medium text-white hover:text-blue-600">Wealth Management</Link>
                       </div>
 
                       {/* Column 3: Sub-options shown conditionally */}
@@ -143,25 +143,25 @@ export default function Home() {
                         {activeService === "assurance" && (
                           <>
                             <h4 className="text-white text-2xl font-bold mb-2">Assurance Services:</h4>
-                            <a href="/services/audit-assurance" className="text-white hover:text-blue-500">Audit & Assurance</a>
-                            <a href="/services/employee-benefit-audit" className="text-white hover:text-blue-500">Employee Benefit Plan Audit</a>
-                            <a href="/services/mergers-acquisitions" className="text-white hover:text-blue-500">Mergers & Acquisitions</a>
+                            <Link href="/services/audit-assurance" className="text-white hover:text-blue-500">Audit & Assurance</Link>
+                            <Link href="/services/employee-benefit-audit" className="text-white hover:text-blue-500">Employee Benefit Plan Audit</Link>
+                            <Link href="/services/mergers-acquisitions" className="text-white hover:text-blue-500">Mergers & Acquisitions</Link>
                           </>
                         )}
                         {activeService === "tax" && (
                           <>
                             <h4 className="text-white text-2xl font-bold mb-2">Tax Services:</h4>
-                            <a href="/services/corporate-tax" className="text-white hover:text-blue-500">Corporate Tax</a>
-                            <a href="/services/international-tax" className="text-white hover:text-blue-500">International Tax</a>
-                            <a href="/services/individual-tax" className="text-white hover:text-blue-500">Individual Tax</a>
-                            <a href="/services/gifts-estate-tax" className="text-white hover:text-blue-500">Gifts & Estate Tax</a>
+                            <Link href="/services/corporate-tax" className="text-white hover:text-blue-500">Corporate Tax</Link>
+                            <Link href="/services/international-tax" className="text-white hover:text-blue-500">International Tax</Link>
+                            <Link href="/services/individual-tax" className="text-white hover:text-blue-500">Individual Tax</Link>
+                            <Link href="/services/gifts-estate-tax" className="text-white hover:text-blue-500">Gifts & Estate Tax</Link>
                           </>
                         )}
                         {activeService === "risk" && (
                           <>
                             <h4 className="text-white text-2xl font-bold">Enterprise Risk:</h4>
-                            <a href="/services/internal-audit" className="text-white hover:text-blue-500">Internal Audit Service</a>
-                            <a href="/services/forensic-litigation" className="text-white hover:text-blue-500">Forensic & Litigation</a>
+                            <Link href="/services/internal-audit" className="text-white hover:text-blue-500">Internal Audit Service</Link>
+                            <Link href="/services/forensic-litigation" className="text-white hover:text-blue-500">Forensic & Litigation</Link>
                           </>
                         )}
                       </div>
@@ -225,12 +225,12 @@ export default function Home() {
             <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold mb-4">PNJK CPA Firm</h1>
             <p className="text-xl max-w-xl">Trusted accounting and tax services for individuals and businesses.</p>
             <div className="mt-6">
-              <a
+              <Link
                 className="inline-block bg-blue-600 text-white px-6 py-3 rounded-full text-lg hover:bg-blue-700 transition"
                 href="/contact"
               >
                 Get in Touch
-              </a>
+              </Link>
             </div>
           </main>
 

@@ -20,7 +20,7 @@ export default function CorporateTaxPage() {
           <div className="space-y-6">
             <h2 className="text-2xl font-semibold">Strategic Tax Planning</h2>
             <p>
-              Taxes have a direct impact on corporate profitability and play a pivotal role in shaping business strategy. At PNJK, we offer a full spectrum of integrated tax services tailored to support your company’s growth—locally and globally.
+              Taxes have a direct impact on corporate profitability and play a pivotal role in shaping business strategy. At PNJK, we offer a full spectrum of integrated tax services tailored to support your company&apos;s growth—locally and globally.
             </p>
             <p>
               Our experienced tax professionals stay up to date with the latest legislative changes, ensuring that your company maximizes all available opportunities while maintaining full compliance with federal, state, and international regulations.
@@ -37,7 +37,7 @@ export default function CorporateTaxPage() {
               <li>Multi-State Nexus Tax Study</li>
             </ul>
             <p>
-              Whether you're managing growth, entering new markets, or optimizing your current operations, PNJK’s tax planning support helps you make confident decisions with a focus on long-term profitability.
+              Whether you&apos;re managing growth, entering new markets, or optimizing your current operations, PNJK&apos;s tax planning support helps you make confident decisions with a focus on long-term profitability.
             </p>
           </div>
 

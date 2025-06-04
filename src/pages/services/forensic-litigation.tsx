@@ -30,7 +30,7 @@ export default function ForensicLitigationPage() {
               We are committed to providing high-quality resolutions and innovative strategies for protecting financial interests damaged by fraud, misconduct, or contractual conflicts.
             </p>
             <p className="mb-4">
-              With a multidisciplinary mindset and deep industry understanding, we've performed thousands of valuations that have stood up under regulatory and legal scrutiny.
+              With a multidisciplinary mindset and deep industry understanding, we&apos;ve performed thousands of valuations that have stood up under regulatory and legal scrutiny.
             </p>
           </div>
 

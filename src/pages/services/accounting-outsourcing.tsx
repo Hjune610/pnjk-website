@@ -19,13 +19,13 @@ export default function AccountingOutsourcingPage() {
           <div className="w-full md:w-1/2">
             <h2 className="text-2xl font-semibold mb-4">Overview</h2>
             <p className="mb-4">
-              The importance of daily bookkeeping cannot be overstated. Without proper accounting support, it's difficult to make informed decisions or understand the health of your business.
+              The importance of daily bookkeeping cannot be overstated. Without proper accounting support, it&apos;s difficult to make informed decisions or understand the health of your business.
             </p>
             <p className="mb-4">
               PNJK assigns a dedicated team of professionals to serve as your virtual accounting department, including a full-charge bookkeeper and a manager. Additional staff can be added as your business grows.
             </p>
             <p className="mb-4">
-              Whether you’re a startup or a growing business, we offer customizable outsourcing solutions tailored to your operations, team, and reporting needs.
+              Whether you&apos;re a startup or a growing business, we offer customizable outsourcing solutions tailored to your operations, team, and reporting needs.
             </p>
 
             <h3 className="text-xl font-semibold mt-8 mb-2">Full-Charge Staff Accountant</h3>
