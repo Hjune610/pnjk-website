@@ -34,7 +34,7 @@ export default function AboutPage() {
               PNJK works with companies from their inception providing accounting, advisory and tax services. The firm serves incubators and start-ups with accounting services and advice. As companies grow, PNJK assists them every step of the way with a full complement of services to help them reach their goals.
             </p>
             <p className="mb-4">
-              Our goal is to provide you and your business with innovative and professional guidance whenever you need.  PNJK’s core values are to provide quality service, attract and develop a team of talented and highly trained professionals, stress innovation in all firm activities, act with integrity at all times, and be an effective and financially sound professional enterprise.
+              Our goal is to provide you and your business with innovative and professional guidance whenever you need.  PNJK's core values are to provide quality service, attract and develop a team of talented and highly trained professionals, stress innovation in all firm activities, act with integrity at all times, and be an effective and financially sound professional enterprise.
             </p>
           </div>
 
@@ -79,7 +79,7 @@ export default function AboutPage() {
 
             <h2 className="text-2xl font-semibold mb-4 mt-10">What Sets Us Apart</h2>
             <p className="mb-4">
-              We bring "Big 4" firm expertise with boutique firm agility. Our team is built on a foundation of senior professionals who prioritize strategy and service tailored to each client’s needs.
+              We bring "Big 4" firm expertise with boutique firm agility. Our team is built on a foundation of senior professionals who prioritize strategy and service tailored to each client's needs.
             </p>
           </div>
         </div>
