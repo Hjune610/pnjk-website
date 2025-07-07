@@ -1,24 +1,6 @@
-import { useState } from 'react';
 import Layout from '../components/Layout';
 
 export default function ContactPage() {
-  const [status, setStatus] = useState<string | null>(null);
-
-  const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
-    e.preventDefault();
-    const formData = new FormData(e.currentTarget);
-    const payload = Object.fromEntries(formData.entries());
-
-    const res = await fetch('/api/contact', {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify(payload),
-    });
-
-    const result = await res.json();
-    setStatus(result.message);
-  };
-
   return (
     <Layout backgroundImage="/chicago1.jpg">
       <section className="pt-32 pb-20 text-center text-white">
@@ -29,7 +11,14 @@ export default function ContactPage() {
       <section className="bg-white text-black px-6 py-16 rounded-t-3xl shadow-lg max-w-6xl mx-auto">
         <h2 className="text-2xl font-semibold mb-8">Send Us Inquiries</h2>
 
-        <form onSubmit={handleSubmit} className="grid grid-cols-1 md:grid-cols-2 gap-6">
+        <form
+          action="https://formspree.io/f/mkgblgqn"
+          method="POST"
+          acceptCharset="UTF-8"
+          className="grid grid-cols-1 md:grid-cols-2 gap-6"
+        >
+          <input type="hidden" name="_next" value="https://pnjk-website.vercel.app/contact" />
+
           <div>
             <label className="block mb-1 font-medium">First Name *</label>
             <input name="firstName" required className="w-full border p-2 rounded" />
@@ -62,7 +51,6 @@ export default function ContactPage() {
             <button type="submit" className="bg-blue-600 text-white px-6 py-2 rounded hover:bg-blue-700 transition">
               Submit
             </button>
-            {status && <p className="mt-4 text-green-600">{status}</p>}
           </div>
         </form>
 
