@@ -222,8 +222,8 @@ export default function Home() {
 
           {/* Hero Section */}
           <main className="flex flex-col items-center justify-center min-h-screen text-center px-4 sm:px-0">
-            <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold mb-4">PNJK CPA Firm</h1>
-            <p className="text-xl max-w-xl">Trusted accounting and tax services for individuals and businesses.</p>
+            <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold mb-4">PNJK Partners, LLP</h1>
+            <p className="text-xl max-w-xl">Audit Tax Consulting & Accounting resources for business and individuals</p>
             <div className="mt-6">
               <Link
                 className="inline-block bg-blue-600 text-white px-6 py-3 rounded-full text-lg hover:bg-blue-700 transition"
