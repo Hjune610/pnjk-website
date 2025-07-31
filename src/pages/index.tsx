@@ -51,10 +51,14 @@ export default function Home() {
     // Page wrapper with background image
     <div
       className={`${geistSans.className} ${geistMono.className} relative min-h-screen overflow-x-hidden bg-cover bg-center bg-pan`}
-      style={{ backgroundImage: "url('/chicago1.jpg')" }}
+      style={{ 
+        backgroundImage: "url('/chicago6.avif')", 
+        backgroundSize: "110%"  // adjust this to control zoom (e.g., 70%, 60%)
+      }}
+
     >
       {/* Background overlay */}
-      <div className="absolute inset-0 bg-black/40 z-0" />
+      <div className="absolute inset-0 bg-black/25 z-0" />
 
       {/* Content container */}
       <div className="relative z-10 text-white p-8 sm:p-20">
